@@ -15,7 +15,7 @@
             color: #fff;
             text-align: center;
             padding: 2rem 0;
-            position: relative; /* Add this */
+            position: relative;
         }
 
         .header-content h1 {
@@ -24,13 +24,13 @@
 
         /* Add styles for the round profile picture */
         .profile-picture {
-            width: 100px; /* Adjust the size as needed */
+            width: 100px;
             height: 100px;
-            border-radius: 75%; /* Create a circular shape */
-            object-fit: cover; /* To ensure the image fills the circular area */
-            position: absolute; /* Add this */
-            top: 75px; /* Adjust top position as needed */
-            left: 75px; /* Adjust left position as needed */
+            border-radius: 75%;
+            object-fit: cover;
+            position: absolute;
+            top: 75px;
+            left: 75px;
         }
 
         nav {
@@ -95,7 +95,7 @@
     <header>
         <div class="header-content">
             <!-- Add your profile picture here -->
-            <img src="image.jpg" alt="Your Profile Picture" class="profile-picture">
+            <img src="image1.jpg" alt="Your Profile Picture" class="profile-picture">
             <h1>Dhanush D</h1>
             <p>I Am Computer Application student</p>
         </div>
@@ -108,7 +108,7 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#resume">Resume</a></li>
-           
+            <li><a href="#certificate">Certificate</a></li>
         </ul>
     </nav>
 
@@ -119,7 +119,6 @@
                 I'm driven by the desire to craft high-performance web applications that enhance user experience and provide
                  seamless digital solutions. I'm also committed to helping others learn more about web technologies, 
                  best practices, and how to build secure and scalable websites.</p>
-
         </div>
     </section>
 
@@ -127,8 +126,6 @@
         <div class="section-content">
             <h2>Education</h2>
             <p>Madras University  - BCA</p>
-            
-            
         </div>
     </section>
 
@@ -138,9 +135,9 @@
             <ul>
                 <li>Cloud Computing</li>
                 <li>Python</li>
-                <li>java</li>
-                <li>c++</li>
-                <li>Java script</li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>JavaScript</li>
             </ul>
         </div>
     </section>
@@ -152,25 +149,43 @@
                 <li><a href="#">E Cart website</a></li>
                 <li><a href="#">Cloud Security IBM</a></li>
                 <li><a href="#">IBM chatbot</a></li>
-                <!-- Add more project links here -->
             </ul>
         </div>
     </section>
 
     <section id="resume">
-    
         <div class="section-content">
             <center>
-            <h2>Resume</h2>
-            <a href="resume1.pdf" class="download-button" target="_blank">Download CV</a>
-
-        </center>
+                <h2>Resume</h2>
+                <a href="resume1.pdf" class="download-button" target="_blank" download="Dhanush_D_Resume.pdf">Download CV</a>
+            </center>
         </div>
-        
+    </section>
+
+    <!-- Certificate Section -->
+    <section id="certificate">
+        <div class="section-content">
+            <h2>Certificate</h2>
+            
+            <!-- Option 1: Download Link (PDF) -->
+            <a href="certificate.pdf" class="download-button" target="_blank" download="Dhanush_D_Certificate.pdf">Download Certificate (PDF)</a>
+
+            <!-- Option 2: Embed Image -->
+            <h3>Or View the Certificate</h3>
+            <img src="certificate.jpg" alt="Certificate" style="max-width: 100%; height: auto;">
+
+            <!-- Option 3: Embed PDF Viewer -->
+            <h3>Or View the Certificate PDF</h3>
+            <embed src="certificate.pdf" type="application/pdf" width="100%" height="600px">
+            
+            <!-- Option 4: Link to External Platform (Example: Google Drive) -->
+            <h3>Or View My Certificate on Google Drive</h3>
+            <p>You can view my certificate on <a href="https://drive.google.com/file/d/your-file-id/view" target="_blank">Google Drive</a></p>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Dhanush D </p>
+        <p>&copy; 2025 Dhanush D</p>
     </footer>
 
     <script>
